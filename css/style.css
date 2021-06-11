@@ -1,0 +1,368 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #434343;
+  background: #f4f4f4;
+}
+
+p {
+  font-size: 18px;
+  text-align: left;
+}
+
+b {
+  font-weight: bold;
+}
+iframe {
+  border: 0;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 64px;
+}
+
+.banner-imgmobile {
+  display: none;
+}
+
+.cont_text_banner {
+  position: absolute;
+  width: 463px;
+  top: 30px;
+  right: 60px;
+}
+
+.banner-title {
+  font-size: 26px;
+  line-height: 30px;
+  margin: 1rem 0;
+  color: #f4f4f4;
+}
+
+.banner-text {
+  color: #f4f4f4;
+}
+
+.banner-btn {
+  margin: 1rem 0;
+  padding: 0 2rem;
+  background: #FA1E2D;
+  color:#ffffff;
+  border: none;
+  border-radius: 16px;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.banner-btn:hover {
+  color: #f4f4f4;
+  background: linear-gradient(180deg, rgba(250,30,45,1) 0%, rgba(196,3,17,1) 0%);
+}
+
+.banner-smallLeter {
+  font-size: 16px;
+  line-height: 21px;
+  color: #f4f4f4;
+}
+
+.carousel {
+  margin-bottom: 64px;
+}
+
+.carousel-title {
+  font-size: 26px;
+  line-height: 30px;
+  color: #364143;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.abretuyapay {
+  margin-left: 142px;
+  margin-right: 142px;
+  margin-bottom: 64px;
+}
+
+.abretuyapay-title {
+  color: #434343;
+  font-size: 42px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.abretuyapay-img {
+  width: 90px;
+}
+
+.abretuyapay-pasos {
+  text-align: center;
+}
+
+.abretuyapay-text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.abretuyapay-contbtn {
+  text-align: center;
+}
+
+.abretuyapay-btn {
+  background: #EC1C29;
+  color: #f4f4f4;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px #EC1C2966;
+  border-radius: 6px;
+  padding: 12px 86px;
+}
+
+.abretuyapay-btn:hover {
+  background: #EC1C29;
+  color: #f4f4f4;
+}
+
+#formulario {
+  margin-left: 241px;
+  margin-right: 241px;
+  margin-bottom: 127px;
+}
+
+.formulario-contimg {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.formulario-title {
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.formulario-text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.formulario-cont {
+  margin-top: 48px;
+}
+
+.formulario-divselect {
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.formulario-select {
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF !important;
+}
+
+.formulario-continput {
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+.formulario-input{
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  border: none;
+}
+
+.formulario-input::placeholder {
+  color: #515C6F;
+}
+
+.formulario-btn {
+  background: #EC1C29;
+  color: #f4f4f4;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px #EC1C2966;
+  border-radius: 6px;
+  padding: 12px 100px;
+}
+
+.formulario-btn:hover {
+  background: #EC1C29;
+  color: #f4f4f4;
+}
+
+.formulario-img {
+  margin-top: 30px;
+}
+
+.contuyapuedes {
+  margin-left: 142px;
+  margin-right: 142px;
+  margin-bottom: 142px;
+}
+
+.contuyapuedes-title {
+  font-size: 42px;
+  line-height: 49px;
+  margin-bottom: 29px;
+  margin-top: 197px;
+}
+
+.contuyapuedes-contimg {
+  margin-top: 64px;
+}
+
+.contador{
+  margin-left: 340px;
+  margin-right: 340px;
+  padding: 32px 0px;
+  background: #EC1C29;
+  border-radius: 32px;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-bottom: 74px;
+}
+
+.contador-cont {
+  background: #f4f4f4;
+  border-radius: 12px;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.contador-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 15px;
+  text-align: center;
+}
+
+footer {
+  margin: 0 32px;
+  padding: 32px;
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  box-shadow: -5px -5px 15px #FFFFFFCB;
+  border-radius: 16px;
+}
+
+.footer-cont {
+  border-right: 2px solid gainsboro ;
+}
+
+.footer-img{
+  margin-right: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #364143;
+  text-decoration: underline #364143;
+}
+
+.footer-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #364143;
+}
+
+.footer-checkbox {
+  font-size: 16px;
+}
+
+.footer-tyc {
+  color: #515C6F;
+  text-decoration: underline #364143;
+}
+
+.footer-btn {
+  background: #EC1C29;
+  color: #f4f4f4;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px #EC1C2966;
+  border-radius: 6px;
+  padding: 12px 32px;
+}
+
+.footer-btn:hover {
+  background: #EC1C29;
+  color: #f4f4f4;
+}
+
+@media screen and (max-width:768px) {
+  p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .banner {
+    margin-bottom: 32px;
+  }
+  .cont_text_banner {
+    width: 200px;
+    right: 16px;
+  }
+  .banner-imgdesktop {
+    display: none;
+  }
+  .banner-imgmobile {
+    display: inline-block;
+  }
+  .banner-title {
+    font-size: 22px;
+  }
+  .cont_text_banner {
+    font-size: 14px;
+    padding: 12px;
+  }
+  .banner-smallLeter{
+    font-size: 12px;
+  }
+  .carousel-title{
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .carousel-cont {
+    display: flex;
+  }
+  .abretuyapay {
+    margin-left: 16px;
+    margin-right: 10px;
+  }
+  .abretuyapay-title{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  .formulario-title {
+    font-size: 22px;
+  }
+  #formulario{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #formulario{
+    margin-left: 42px;
+    margin-bottom: 30px;
+  }
+  .formulario-img{
+    margin-left: 30px;
+  }
+  .formulario-cont{
+    margin-bottom: 0px;
+  }
+  .contuyapuedes-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+  }
+}
